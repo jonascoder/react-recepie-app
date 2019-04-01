@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Recipe from "./Recipe";
-
-export default class RecipieList extends Component {
+export default class RecipeList extends Component {
   render() {
     const { recipes } = this.props;
     return (

@@ -16,6 +16,7 @@ export default function Header({ children, title, styleClass }) {
     </header>
   );
 }
+
 Header.defaultProps = {
   title: "default title",
   styleClass: "header-hero"

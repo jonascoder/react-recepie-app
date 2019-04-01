@@ -1,9 +1,9 @@
 import React from "react";
 import logo from "../images/logo.svg";
 import { Link } from "react-router-dom";
-export default function NavBar() {
+export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-sm navbar-light bg-ligth">
+    <nav className="navbar navbar-expand-lg navbar-light bg-ligth">
       <Link to="/" className="navbar-brand">
         <img src={logo} alt="logo" />
       </Link>
