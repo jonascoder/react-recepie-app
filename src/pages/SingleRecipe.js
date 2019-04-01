@@ -17,7 +17,7 @@ export default class SingleRecipe extends Component {
       process.env.REACT_APP_API_KEY
     }&rId=${this.state.id}`;
     try {
-      const response = await fetch(url);
+      const response = await fetch(url, { mode: "no-cors" });
       const responseData = await response.json();
       this.setState({
         recipe: responseData.recipe,
