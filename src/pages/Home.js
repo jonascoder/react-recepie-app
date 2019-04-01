@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 export default class Home extends Component {
   render() {
     return (
-      <Header title="amazin recipies">
+      <Header title="amazin recipes">
         <Link
-          to="recipies"
+          to="recipes"
           className="text-uppercase btn btn-secondary btn-lg mt-3"
         >
-          Search Recipies
+          Search Recipes
         </Link>
       </Header>
     );

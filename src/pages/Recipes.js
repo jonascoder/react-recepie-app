@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import RecipieList from "../components/RecipieList";
+import RecipeList from "../components/RecipeList";
 import Search from "../components/Search";
 import { recipeData } from "../data/tempList";
-export default class Recipies extends Component {
+export default class Recipes extends Component {
   constructor(props) {
     super(props);
   }
@@ -26,7 +26,7 @@ export default class Recipies extends Component {
           handleChange={this.handleChange}
           handleSubmit={this.handleSubmit}
         />
-        <RecipieList recipes={this.state.recipes} />
+        <RecipeList recipes={this.state.recipes} />
       </>
     );
   }
